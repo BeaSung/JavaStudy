@@ -11,7 +11,7 @@ public class TransactionHistory {
     private final TransactionType transactionType;
     private final long money;
 
-    public  TransactionHistory(LocalDateTime transactionDateTime, long money, TransactionType transactionType) {
+    public TransactionHistory(LocalDateTime transactionDateTime, long money, TransactionType transactionType) {
         this.transactionDateTime = transactionDateTime;
         this.money = money;
         this.transactionType = transactionType;
