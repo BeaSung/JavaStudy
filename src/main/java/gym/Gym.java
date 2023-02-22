@@ -14,7 +14,7 @@ public class Gym {
         members.add(member);
     }
 
-    public Member search(String name) {
+    public Member searchMember(String name) {
         // Enhanced for loop
         // for (타입명 변수명 : 컬렉션/배열명)
         for (Member member : members) {
@@ -35,5 +35,9 @@ public class Gym {
             }
         }
         return activeMembers;
+    }
+
+    public List<Member> getAllMembers() {
+        return members;
     }
 }
